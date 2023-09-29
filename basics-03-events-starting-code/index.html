@@ -19,7 +19,7 @@
     <section id="events">
       <h2>Events in Action</h2>
       <button v-on:click="add(2)">Add 2</button>
-      <button v-on:click.right="subtract(3)">Subtract 3</button>
+      <button v-on:click="subtract(3)">Subtract 3</button>
       <p>Result: {{ counter }}</p>
       <input type="text" v-on:input="setName($event, 'Özçelik')"></input>
       <p>Your Name: {{ name }}</p>
